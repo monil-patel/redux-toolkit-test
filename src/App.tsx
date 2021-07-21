@@ -15,6 +15,7 @@ function App() {
   const collectionText = useAppSelector(selectedCollection);
   const searchText = useAppSelector(searchValue);
   const dispatch = useAppDispatch();
+  //testing commit
 
   return (
     <div className="App">
