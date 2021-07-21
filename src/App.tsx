@@ -11,9 +11,6 @@ import {
 } from "./slices/viewOptionsSlice";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
 
-import { Counter } from "./features/counter/Counter";
-import logo from "./logo.svg";
-
 function App() {
   const collectionText = useAppSelector(selectedCollection);
   const searchText = useAppSelector(searchValue);
